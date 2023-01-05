@@ -17,15 +17,6 @@ shopRandomMsg = [
     "{kitsune} : \"Oh c'est toi. Ta vendetta est toujours dans tes projets ? Il me semble que la population d'humains a quand même sacrément diminué ces dernières années. Enfin... pas que les humains.\"\n<:nacialisla:985933665534103564> : \"On fait pas d'omelette sans casser des oeufs. Et pour répondre à ta question, j'ai tout de même prévu de leur faire quelques piqûres de rappel de temps en temps\"\n{kitsune} : \"J'aimerais juste que tu te souviennes qu'il y a pas que ces primates qui souffrent de tes crises.\"\n<:nacialisla:985933665534103564> : \"Et je te rappelle que le génocide de tes descendantes n'a rien à voir avec moi.\"\n{kitsune} : \"Oh je ne parlais pas que pour mon \"espèce\" tu sais.\"",
     ]
 
-if datetime.now().month == 9:
-    cpShopRandomMsg = shopRandomMsg[:]
-    for cmpt in range(len(cpShopRandomMsg)):
-        if "{feli}" in cpShopRandomMsg[cmpt]:
-            try:
-                shopRandomMsg.remove(cpShopRandomMsg[cmpt])
-            except:
-                pass
-
 shopEventEndYears = [
     "{lena} : \"Alors Shu' tu as des résolutions pour l'année à venir ^^ ?\"\n{shushi} : \"Ré...so...lu... quoi ?\"",
     "{clemence} : \"Tu t'es surpassée pour ta robe de Noël cette année Alice\"\n{alice} : \"Tu trouves ^^ ?\"\n{clemence} : \"Puisque je te le dis x)\"",
@@ -150,7 +141,7 @@ shopMonthlyMsg = [
         "{benedicte} : `Vient à la rencontre de Clémence qui attendait à la sortie de l'église` \"Tu es la sœur d'Alice, c'est cela ?\"\n{clemence} : \"C'est si compliqué à deviner ?\"\n{benedicte} : `Croise les bras en faisant la moue` \"Il n'y a pas beaucoup de vampires qui attendraient pendant une dizaine de minutes devant une église d'autant plus qu'il ne fait pas encore nuit. D'autant plus qu'Alice nous avait dit que tu viendrais la chercher après le Chemin de Croix.\"\n{clemence} : \"Et je suppose que si ce n'est pas elle qui vient directement c'est parce qu'il s'est passé quelque chose ?\"\n{benedicte} : \"Elle a perdu connaissance en milieu d'après-midi et ne s'est toujours pas réveillée depuis. Je pense que le soleil de plomb et la symbolique du chemin n'ont pas fait du bien à ses... origines, aussi... résistante soit-elle. Peut-être que toi qui t'y connais un peu mieux sur ce sujet pourrais la réveiller. Si c'est le cas, je t'autorise à rentrer dans l'église pour aller la voir.\"\n{clemence} : `Soupir` \"Si un jour on m'avait dit qu'on m'inviterait à rentrer dans une église...\"",
         "{lena} : \"Au fait Krys, je dois te rajouter au club des hydrophobes ? T'en fais pas on mord pas. Enfin peut-être Iliana mais premièrement elle le fait que si elle est vraiment énervée et de deux je pense qu'elle s'y casserait les dents avec toi.\"\n<:krys:916118008991215726> : \"Le club des quoi ?\"",
         "{klikli} : \"Hé Lena je peux t'emprunter ta moto ?\"\n{lena} : \"Tant que tu la mets à charger en rentrant oui. Tu vas faire quoi ?\"\n{klikli} : \"Je dois aller chercher un truc à l'autre bout de la ville pour Lightning\"",
-        "{edelweiss} : \"... Je peux t'aider ? On le dirait pas comme ça mais je me débrouille plutôt bien en soins\"\n<:lohica:919863918166417448> : \"Tu me rappelles juste quelqu'un, c'est tout... Et ton truc c'est pas plutôt la protection ?\"\n{edelweiss} : `Hausse les épaules` \"Je le fais parce qu'il y a déjà pas mal de personnes qui soignent ici, c'est tout\"",
+        "{edelweiss} : \"... Je peux t'aider ? On le dirait pas comme ça mais je me débrouille plutôt bien en soins\"\n{lohica} : \"Tu me rappelles juste quelqu'un, c'est tout... Et ton truc c'est pas plutôt la protection ?\"\n{edelweiss} : `Hausse les épaules` \"Je le fais parce qu'il y a déjà pas mal de personnes qui soignent ici, c'est tout\"",
         "{lena} : \"Merci du coup de main Lio. Bon maintenant Shihu. Qu'est-ce que j'ai dit à propos de l'utilisation de la magie à la maison ?\"\n{shihu} : \"De... Pas utiliser la magie à la maison...\"\n{lena} : \"Et donc pourquoi on a dû s'y mettre à trois pour éteindre les flammes noires dans votre chambre ?\"\n{shihu} : \"Mais il y avait un moustique...\"\n{lena} : \"Et tu penses sérieusement que risquer de réduire la maison en cendres pour un moustique est une bonne idée ?\"\n{shihu} : \"... au moins je l'ai eu...\"\n{lena} : \"... Vous êtes toutes les deux privées de dessins animés et de dessert pour une semaine.\"\n{shushi} : \"Mais j'ai rien fait moi !\"\n{lena} : \"Justement.\"",
         "{lena} : \"Au fait Gwen tu mets quoi lorsque tu prends ma moto ?\"\n{gweny} : \"Alors hum... moi je mets juste un casque et des gants, Alty rajoute une veste et pantalon renforcé et Klironovia ne prend rien du tout, je crois.\"\n{lena} : \"... Il y en a qu'une seule qui a compris à quel point on peut être vulnérable sur un deux roues ?\"\n{gweny} : \"Roh ça va il y a quand même beaucoup moins de gens sur les routes maintenant. Et puis tout le monde ne peut pas changer de tenue en un claquement de doigts, Lena.\"",
         "{feli} : \"Pourquoi on fait jamais de combats sous l'eau en fait ?\"\n{sixtine} : \"Parce que ça reviendrait à un duel entre toi et Lio...\"\n{feli} : \"Oh\"",
@@ -159,7 +150,7 @@ shopMonthlyMsg = [
     [# August
         "{clemence} : \"Hum... Où est Alice ?\"\n{feli} : \"Elle était avec nous non ?\"\n{anna} : \"Je croyais qu'elle t'avait rejointe après le Palais des Glaces Clémence !\"\n{clemence} : \"... Attendez... Vous avez emmené Alice, qui n'a aucun sens de l'orientation ni reflet dans un Palais des Glaces au beau milieu d'une fête foraine tellement bruyante que j'ai du mal à ne pas me cogner contre un mur si je me fie qu'à mes oreilles alors que je suis bien plus expérimentée qu'elle en écholocalisation et ne l'avez même pas attendue ou aidée !?\"\n{feli} : \"Elle mettait tellement longtemps on a pensé qu'elle était déjà sortie '^' !\"\n{clemence} : `Facepalm`\n{anna} : `Regarde ses pieds pas très fière d'elle et jette un coup d'œil à la vitrine la plus proche`\n{belle} : `Roule des yeux et sort du cadre de la vitrine`",
         "{kitsune} : \"Hmm... C'est moi Lio ou je constate une forte abondance de magie curative récente au niveau de tes joues ? Me dit pas que tu continues de mordre bêtement aux hameçons ?\"\n{lio} : \"`Est soudainement prise d'une envie de caresser ses queues` Ils sont bons les poissons qu'ils utilisent comme appâts quand même... On les trouve pas dans le coin...",
-        "{alice} : \"C'est qu'il te va plutôt bien ce maillot, ça change de tes tenues en cuir !\"\n<:lohica:919863918166417448> : \"Merci je suppose. Pas besoin de te dire que ton maillot te va très bien, tu le sais déjà je pense.\"",
+        "{alice} : \"C'est qu'il te va plutôt bien ce maillot, ça change de tes tenues en cuir !\"\n{lohica} : \"Merci je suppose. Pas besoin de te dire que ton maillot te va très bien, tu le sais déjà je pense.\"",
         "`Gwen était assise sur son lit en étant en train de surfer en ligne avec son ordinateur portable quand un mouvement dans le coin de la chambre attira son attention`\n{karai} : \"... Bonsoir Klironovia...\"\n{klikli} : \"Tiens, Karaï, ma poupée préférée `Elle prit la poupée et la plaça sur ses jambes tout en continuant sa navigation` Qu'est-ce qui t'amène donc ?\"\n{karai} : \"Oh hum... je voulais savoir si je pouvais dormir avec vous ce soir... Si ça vous dérange pas...\"\n{klikli} : \"Moi ça me va, et je pense pas que ça dérange les autres non plus. Mais je décline toute responsabilité au cas ou tu te retrouves sous moi durant la nuit\"\n{karai} : \"C'est un risque que je suis prête à prendre...\"",
         "{alice} : \"Sixtine, tu penses que c'est quel maillot qui m'irait le mieux ?\"\n{sixtine} : \"J-Je sais pas Alice... le rose ?\"\n{alice} : `Regarde les deux maillots qui étaient tout les deux roses`",
         "{shihu} : \"Lena, je comprends pas l'intérêt de ce truc...\"\n{lena} : \"Montre ? Oh c'est tout simplement pour apprendre aux enfants les formes. D'ailleurs c'était le vôtre non ?\"\n{shihu} : \"Mais... tout rentre par le trou carré...\"",
@@ -317,4 +308,70 @@ shopMonthlyMsg = [
         "{benedicte} : `S'occupe de la crèche de son église en fredonnant`",
         "{lio} : `Se glisse dans le terrier de sa mère sous sa forme de renarde et essaye de se faire une petite place parmi les renardeaux qui dorment parmis les queues de Kitsune pour profiter de son aura chaleureuse pour au final se coucher à côté de son père`"
     ]
+]
+
+lenaTipsMsgTabl = [
+    "Est-ce que quelqu'un lit vraiment ça ?",
+    "Si vous réalisez la commande /fight alors qu'il vous reste moins de 10 minutes de repos, votre combat sera mis en file d'attente et se lancera automatiquement une fois le décompte écoulé",
+    "Une fois le tour 20 atteint en combat, il est plus possible de réanimer un combattant et tout le monde subis des dégâts en fonction de ses PVs Maximums",
+    "Hé vous voulez un conseil de chargement inutile que tout le monde ne lit qu'une fois puis oubli leur existance ? En voilà un",
+    "En fin de combat, vous gagnez de l'expérience en fonction des ennemis vaincu. Si un ennemi a été réanimé mais n'a pas été vaincu une seconde fois, il ne donne que la moitié de l'expérience qu'il devait donner",
+    "En général, les combattants de dernière ligne font plus de dégâts que leurs camarades en mêlée, mais sont bien plus fragile",
+    "Si une entité repoussée rencontre un obstacle, elle subit des dégâts Harmonie d'une puissance de 10 multipliée par le nombre de cases qu'il lui restait à parcourir",
+    "Si une entité ne peux pas se téléporter parceque toutes les cases adjacantes à la cible sont occupées, elle s'inflige des dégâts Harmonie d'une puissance de 20",
+    "L'Harmonie est une statistique spéciale qui est juste un beau mot pour dire \"Statistique la plus élevée\"",
+    "L'Harmonie ne prend pas en compte les statistiques d'actions, mais ceux-ci sont cependant bien rajouté à la statistique d'Harmonie après sa définition",
+    "Les Trancendances prennent en compte la statistique principale la plus élevée du lanceur, mais également sa meilleur statistique d'action, indépendamant de l'action en question",
+    "Les compétences de réanimations prennent en compte la statistique d'action la plus élevée parmis les Soins, Armures ou Bonus",
+    "Chaque réanimation accorde une armure absolue équivalente à 20% des PVs maximums du réanimé à ce dernier, mais cette valeur est augmentée à 50% pour les combattants manuels",
+    "Les armures absolues protègent de tous types de dégâts à l'exeption de la Mort Subite et des coûts en PV des compétences démoniques",
+    "Les armures absolues et normales absorbent des dégâts supplémentaires lorsqu'elles sont détruites. Par défaut, cette valeur est égale à votre niveau, mais certaines compétences peuvent influer dessus",
+    "Kiku et les Zombies commencent tous leurs combats avec le status \"Réanimée\"",
+    "Certains ennemis comme l'OctoBOOM ne peuvent pas être réanimés",
+    "Les Berserkeur ont besoin de pouvoir infliger des dégâts pour être des tanks efficace. Par conséquent leur donner un autre second role que DPT est pas vraiment une bonne idée",
+    "Les statistiques des Idoles leur permettent prendre un role secondaire de soingneur, là où les Innovateurs peuvent se tourner vers l'armure si ils le désirent",
+    "Les statistiques des Altruistes ainsi que leurs compétences propres en fond de très bon soigneur, mais avec les bons équipements ils peuvent aussi être de bon booster d'équipe",
+    "Les Poids Plumes ont naturellement une endurance et une force relativement faible, mais cela est compensé par leur grande agilité qui leur permet d'esquiver ou d'infliger des coups critiques plus souvent que ses concurants de mêlée\nDe plus, à l'instar des Observateurs, leurs coups critiques infligent plus de dégâts",
+    "Le taux d'esquive est calculé en fonction de la différence entre la précision de l'attaquant et l'agilité de l'attaqué.\nSi l'attaqué est plus agile, le taux de réussite de l'attaque est diminuée jusqu'au maximum la moitié de sa valeur\nÀ contratio, une précision plus élevée de l'attaquant peut lui donner jusqu'à deux fois plus de chances de toucher",
+    "Le 19 de chaques mois, les records mensuels sont rénitialisés",
+    "Lors d'un raid, vous êtes associé à une équipe dont le niveau moyen est similaire à celle de la votre. Cependant, cette équipe tierce n'obtient aucune récompense",
+    "Vous vous souvenez de l'aspiration \"Stratège\" ? Ouais moi non plus",
+    "Funfact : Tout à commencé sur une aire d'autoroute pendant que Lénaïc s'ennuyait à attendre que sa famille revienne de sa pause pipi",
+    "Les Sorciers créent de petites détonnations quand ils éliminent un ennemi. Celles-ci prennent en compte les statistiques de Magie et de Dégâts indirects",
+    "Les Têtes Brulées réduisent petit à petit les PV maximums de leurs cibles, ce qui les rends particulièrement efficaces contre les ennemis qui se soignent beaucoup",
+    "Utiliser des compétences divines vous fait peu à peu perdre votre prise sur la réalité au fil du combat. Cela est représenté par des pertes de PV maximums lors de l'utilisation de ces dernières",
+    "Utiliser des compétences démoniaques requière une quantité d'énergie si importe que vous perdrez une partie de vos PV courrants",
+    "En lançant des combats normaux, vous avez une petite chance de revivre un combat passé qu'à vécu un des alliés temporaires\nCes combats sont appelés \"Combat par procuration\"",
+    "Certaines compétences comme Mort Vivant ou Bolide peuvent rendre leur utilisateur invulnérable ou impossible à vaincre pendant un cours instant, permettant aux soigneurs d'essayer de leur sauver la mise",
+    "Certaines compétences comme quelques transcendance ou Abnégations ont pour effet secondaire de réanimé les alliés vaincus dans la zone d'effet, si ils peuvent encore l'être",
+    "Les Protecteurs, Vigilants et Enchanteurs sont trois aspirations qui tirent partie de leur capacités à attirer (et encaisser) les attaques adverses",
+    "La Résistance Soin progresse plus rapidement si plusieurs soigneurs sont présents dans la même équipe",
+    "Repose en paix, aspiration Invocateur",
+    "Une intelligence élevée permet, en plus de pouvoir donner une bonne quantité d'armure, d'avoir une bonne probabilité d'effectuer des dégâts indirects critiques tout en diminuant la probabilité d'en recevoir",
+    "Les statistiques de Clémence, Félicité, Sixtine et Alice augmente légèrement si plusieurs d'entre elles sont dans le même combat",
+    "Lohica est plutôt mauvaise perdante et infligera __Poison d'Estialba__ à son éliminateur lorsque ses PVs tombent à 0",
+    "Les Sorciers infligent des dégâts indirects critiques plus élevés que les autres aspirations",
+    "Le Charisme de Liu, Lia, Liz et Lio augmente légèrement si au moins deux d'entre elles sont dans le même combat",
+    "Alice n'aime pas vraiment que quelqu'un monte sur scène en sa présence",
+    "Les compétences \"Haima\" et \"Pandaima\" ont une très bonne synergie avec l'une des compétences qui augmente le nombre de PAr supplémentaire des armures lorsqu'elles sont détruites. Elles peuvent ainsi déclancher leurs effets 5 fois, résultant en une réduction de dégâts encore plus conséquante",
+    "Lors d'un combat normal contre les alliés temporaires, certains ont des malus spécifiques pour diminuer un peu leur efficacité au combat",
+    "Par défaut, chaque combattant ne peut voler un nombre de PV supérieur à 45 fois leur niveau avec une même attaque. Cette limite est surtout là pour éviter que certain boss se soigne d'une quantité astronomique de PV lorsqu'ils attaquent.\nCependant, certains ennemis ou alliés temporaires peuvent outre-passer en partie cette limite",
+    "Toutes les aspirations de supports, de soins et d'armures voient leur probabilité d'utiliser des options offensives augmenter lorsqu'ils n'ont plus beaucoup de DPT alliés en vie ou que le combat se rapproche du tour 20.",
+    "Les dégâts de Mors Subite sont réduits de 90% sur les boss",
+    "Les armes runiques, le passif Maitrise Elémentaire ainsi les compétences Convertion Elémentaire et Concentration Elémentaire sont le meilleur moyen de gagner des effets élémentaires.\nCes effets augmentent de 5% la puissance des compétences exclusives à leur élément et certaines compétences les consommes pour obtenir des effets supplémentaires.",
+    "Les Sorciers et les Attentifs infligent des dégâts indirects critiques plus élevées que les autres aspirations.",
+    "Les effets de dégâts indirects des Attentifs ont pour effet secondaire de réduire les soins reçus par leur cible en fonction de leur puissance.",
+    "Les redirections de dégâts ne redirigent que les dégâts directs, à l'exeption des pattes de The Giant Ennemi Spider; bien que rien n'est affiché, cette dernière subit bien l'intégralité des dégâts indirects reçus par ses pattes",
+    "Les débuts de combat sont les moments où les Idoles et les Innovateurs octroient des bonus plus puissant qu'à l'accoutumé. Cependant, ceux des Idoles voient leur puissance diminuer au fur et à mesure que leur équipe se fait vaincre tandis que ceux des Innovateurs dépérissent en même temps que l'équipe adverse",
+    "À chaque fois que vous prestigez votre personnage, les combats qui s'en suivent seront de plus en plus difficiles",
+    "Les alliés temporaires s'addaptent au niveau de prestige de votre équipe, qu'ils soient avec ou contre vous",
+    "En combat de raid, il est possible de cumuler jusqu'à 4 charges de Transcendance. La compétence qui en résultes inflige beaucoup de dégâts au boss, mais réanime, soigne et boost également les alliés",
+    "Les Invocations ont leurs propres aspirations, éléments principaux et secondaires, contrairement aux Déployables qui copient ceux de leur invocateur",
+    "Les Déployables jouent leur tour en début de tour de table, tandis que les Invocations jouent juste après leur invocateur",
+    "Avoir des compétences et équipements à jour permet d'augmenter toutes vos satistiques de 5%",
+    "Les Déployables ne peuvent pas être ciblés et ne bloquent pas la case sur laquelle ils se trouvent",
+    "Lorsqu'une entitée est repoussée, si elle rencontre un obstacle alors qu'il lui restait encore 3 cases ou plus à parcourir, celle-ci subira un étourdissement",
+    "Avoir une Endurance élevée réduit les dégâts indirects reçus",
+    "Toutes les aspirations de mêlée reçoivent un bonus de statistiques en fonction de leur Endurance",
+    "Lorsqu'elle passe en dessous de 60% de ses PV Maximums, Nacilisla voit ses statistiques et ses PV grandement augmenter, mais elle ne peut plus esquiver d'attaques et votre Transcendance se charge plus rapidement"
 ]
