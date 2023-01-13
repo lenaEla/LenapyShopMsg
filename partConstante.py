@@ -367,7 +367,7 @@ lenaTipsMsgTabl = [
     "Les armes runiques, le passif Maitrise Elémentaire ainsi que les compétences Conversion Élémentaire et Concentration Élémentaire sont le meilleur moyen de gagner des effets élémentaires.\nCes effets augmentent de 5% la puissance des compétences exclusives à leur élément et certaines compétences les consomment pour obtenir des effets supplémentaires.",
     "Les Sorciers et les Attentifs infligent des dégâts indirects critiques plus élevés que ceux des autres aspirations.",
     "Les effets de dégâts indirects des Attentifs ont pour effet secondaire de réduire les soins reçus par leur cible en fonction de leur puissance.",
-    "Les redirections de dégâts ne redirigent que les dégâts directs, à l'exeption des pattes de The Giant Ennemi Spider; bien que rien n'est affiché, cette dernière subit bien l'intégralité des dégâts indirects reçus par ses pattes",
+    "Les redirections de dégâts ne redirigent que les dégâts directs, à l'exception des pattes de The Giant Ennemi Spider; bien que rien n'est affiché, cette dernière subit bien l'intégralité des dégâts indirects reçus par ses pattes",
     "Les débuts de combat sont les moments où les Idoles et les Innovateurs octroient des bonus plus puissants qu'à l'accoutumée. Cependant, ceux des Idoles voient leur puissance diminuer au fur et à mesure que leur équipe se fait vaincre tandis que ceux des Innovateurs dépérissent en même temps que l'équipe adverse",
     "À chaque fois que vous prestigez votre personnage, les combats qui s'ensuivront seront de plus en plus difficiles",
     "Les alliés temporaires s'adaptent au niveau de prestige de votre équipe, qu'ils soient avec ou contre vous",
@@ -379,5 +379,5 @@ lenaTipsMsgTabl = [
     "Lorsqu'une entitée est repoussée, si elle rencontre un obstacle alors qu'il lui restait encore 3 cases ou plus à parcourir, celle-ci subira un étourdissement",
     "Avoir une Endurance élevée réduit les dégâts indirects reçus",
     "Toutes les aspirations de mêlée reçoivent un bonus de statistiques en fonction de leur Endurance",
-    "Lorsqu'elle passe en dessous de 60% de ses PVs Maximums, Nacilisla voit ses statistiques et ses PVs grandement augmenter, mais elle ne peut plus esquiver d'attaques et votre Transcendance se charge plus rapidement"
+    "Lorsqu'elle passe en dessous de 60% de ses PVs Maximums, Nacialisla voit ses statistiques et ses PVs grandement augmenter, mais elle ne peut plus esquiver d'attaques et votre Transcendance se charge plus rapidement"
 ]
