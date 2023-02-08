@@ -409,7 +409,7 @@ lenaTipsMsgTabl = [
     "Lorsqu'une entitée est repoussée, si elle rencontre un obstacle alors qu'il lui restait encore 3 cases ou plus à parcourir, celle-ci subira un étourdissement",
     "Avoir une Endurance élevée réduit les dégâts indirects reçus",
     "Toutes les aspirations de mêlée reçoivent un bonus de statistiques en fonction de leur Endurance",
-    "Lorsqu'elle passe en dessous de 60% de ses PVs Maximums, Nacialisla voit ses statistiques et ses PVs grandement augmenter, mais elle ne peut plus esquiver d'attaques et votre Transcendance se charge plus rapidement"
-    "Les premiers points de Résistance et Pénétration ont une valeur plus élevée que les suivants. Dans la même idée, plus la Résistance ou la Pénétration est élevée, moins les nouveaux points auront d'effet"
+    "Lorsqu'elle passe en dessous de 60% de ses PVs Maximums, Nacialisla voit ses statistiques et ses PVs grandement augmenter, mais elle ne peut plus esquiver d'attaques et votre Transcendance se charge plus rapidement",
+    "Les premiers points de Résistance et Pénétration ont une valeur plus élevée que les suivants. Dans la même idée, plus la Résistance ou la Pénétration est élevée, moins les nouveaux points auront d'effet",
     "Les compétences augmentant la Résistance ou la Pénétration sont plus efficaces sur les personnages qui n'ont pas beaucoup de points dans ces statistiques. Dans le cas contraire, les compétences influençant les dégâts subis ou infligés auront des effets plus notables"
 ]
