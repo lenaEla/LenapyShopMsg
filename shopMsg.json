@@ -741,19 +741,19 @@
     },
     "abiShopMsg":{
         "buyAll":[
-            "\"C'est noté, veillez patienter quelques instant...\"",
+            "\"C'est noté, veuillez patienter quelques instants...\"",
             "\"Tout est bon pour moi, vos articles sont en cours d'acheminement...\"",
-            "\"Vous voulez le reçu banquaire ?\"",
+            "\"Vous voulez le reçu bancaire ?\"",
             "\"Pam palam...\""
         ],
         "buyAllEnd":[
             "\"C'est tout bon. Voici votre reçu :\"",
             "\"Et voici. Vous avez peut-être besoin d'un peu d'aide pour porter tout cela ?\"",
-            "\"Et voila. Je vous souhaite une bonne journée ! Ou Au prochain arrivage, peut-être ?\"",
-            "\"Et voila. Oubliez pas notre réduction du dimanche !\""
+            "\"Et voilà. Je vous souhaite une bonne journée ! Ou Au prochain arrivage, peut-être ?\"",
+            "\"Et voilà. Oubliez pas notre réduction du dimanche !\""
         ],
         "buyAllAndSend":[
-            "\"C'est tout bon, vos achats vont être envoyé chez leurs destinataires sous peu\"",
+            "\"C'est tout bon, vos achats vont être envoyés chez leurs destinataires sous peu\"",
             "\"Vous voulez les faire emballer ?\"",
             "\"Are you... taking my entire stock ?\"",
             "\"Geez... ça fait pas mal quand même...\""
@@ -763,7 +763,7 @@
             "\"Et voilà. Tous vos achats ont été expédiés vers leurs nouveaux propriétaires\"",
             "\"Eeeet tout est bon. Merci et bonne journée !\"",
             "\"All done !\"",
-            "\"Merci. N'oubliez pas, article ni repris, ni échangés !\""
+            "\"Merci. N'oubliez pas, articles ni repris, ni échangés !\""
         ]
     },
     "chipShopMsg":{
@@ -771,7 +771,7 @@
             "shopDsc":[
                 "{oceane} : \"Hey, bienvenue ! Vous voulez des puces ? Ma mère m'a dit que je pouvais vous en filer en échange de <:tradingCard:1218246608609742959> Cartes à jouer. Ou tout simplement en <:coins:862425847523704832> Pièces, si vous en avez pas assez\nJ'crois que vous en obtenez une dizaine lorsque vous ouvrez des boosters de puces. J'en sais rien, c'est pas mon truc, les puces\"",
                 "{oceane} : \"Hoi ! Quoi de beau aujourd'hui ? Vous voulez des puces ?\"",
-                "{oceane} : \"Hey ! Comment ça va ? Oubliez pas la promo du dimanche ! En plus on propose plein de trucs rare dans cette section, le dimanche !\""
+                "{oceane} : \"Hey ! Comment ça va ? Oubliez pas la promo du dimanche ! En plus on propose plein de trucs rares dans cette section, le dimanche !\""
             ],
             "buyCardButton":[
                 "On échange ?","Mmh !","C'est quand tu veux !"
@@ -780,16 +780,16 @@
                 "Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?"
             ],
             "buyed":[
-                "{oceane} : \"Parfait ! Mon frère vous souhaiterais de bien vous amuser avec ces puces, mais je vois pas en quoi c'est amusant\"",
+                "{oceane} : \"Parfait ! Mon frère vous souhaiterait de bien vous amuser avec ces puces, mais je vois pas en quoi c'est amusant\"",
                 "{oceane} : \"Et bah c'est tout bon !\"",
                 "{oceane} : \"Et voila pour vous\""
             ]
         },
         "glanSingle":{
             "shopDsc":[
-                "{glan} : \"Hey ! Bienvenue dans la section \"Puce\" du shop de ma mère ! Ici on propose des puces (no shit) contre des <:coins:862425847523704832> Pièces. Mais si tu es du genre radin, on te les échange aussi contre des <:tradingCard:1218246608609742959> Cartes à jouer ! Si j'arrive à me constinuer un deck du tonner, j'vais peut-être réussir à abatre ma cousine !\nAnyway, vous obtenez 10 <:tradingCard:1218246608609742959> Cartes à jouer lorsque vous ouvrez un booster de puces",
+                "{glan} : \"Hey ! Bienvenue dans la section \"Puce\" du shop de ma mère ! Ici on propose des puces (no shit) contre des <:coins:862425847523704832> Pièces. Mais si tu es du genre radin, on te les échange aussi contre des <:tradingCard:1218246608609742959> Cartes à jouer ! Si j'arrive à me constituer un deck du tonnerre, j'vais peut-être réussir à abattre ma cousine !\nAnyway, vous obtenez 10 <:tradingCard:1218246608609742959> Cartes à jouer lorsque vous ouvrez un booster de puces",
                 "{glan} : \"Hey, mes aventuriers préférés ! Vous avez des <:tradingCard:1218246608609742959> Cartes à jouer ?\"",
-                "{glan} : \"Hi there ! Vous avez besoins de puces ?"
+                "{glan} : \"Hi there ! Vous avez besoin de puces ?"
                 ],
             "buyCardButton":[
                 "Deal ?","On échange ?","Allez quoi !"
@@ -806,7 +806,7 @@
         "oceaneGlanDuo":{
             "shopDsc":[
                 "{oceane} : \"Bien le bonjour ! Besoin de puces ? On peut vous en fournir contre quelques <:tradingCard:1218246608609742959> Cartes à jouer\"\n{glan} : \"Ou des <:coins:862425847523704832> Pièces\"\n{oceane} : \"Certes\"",
-                "{glan} : \"Mmh... Ok, je vais jouer celle là ici !\"\n{oceane} : \"Quel fourbe. Mais je ne vais pas m'avouer vaincue pour autant ! Oh bonjour vous\"\n{glan} : \"Welcome !\"",
+                "{glan} : \"Mmh... Ok, je vais jouer celle-là ici !\"\n{oceane} : \"Quel fourbe. Mais je ne vais pas m'avouer vaincue pour autant ! Oh bonjour vous\"\n{glan} : \"Welcome !\"",
                 "{glan} : \"Hé regarde celle-là !\"\n{oceane} : \"Oh belle prise. Elle est plutôt rare celle-ci\"\n{glan} : \"Oh bienvenue Aventurier\"\n{oceane} : \"Bien le bonjour\""
                 ],
             "buyCardButton":[
