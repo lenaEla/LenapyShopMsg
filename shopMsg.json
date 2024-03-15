@@ -15,7 +15,8 @@
         "{shushi} : \"Maman tu fais quoi ?\"\n{lena} : \"Hum ? Oh rien d'important\" `Glisse une feuille de papier derrière elle`\n{shushi} : \"Tu peux m'aider pour mes devoirs :< ? J'y arrive pas\"\n{lena} : \"Oh oui bien sûr ^^\"\n\n`Les deux quittèrent la pièce en laissant ladite feuille sur le bureau`\n\n:page_with_curl: [Feuille de papier](https://docs.google.com/spreadsheets/d/1l6csj2GjnaHMPYhPgqaji6Hs7bU68eb4XC_Ss2oxT-4/edit?usp=drivesdk)",
         "{alty} : \"Et voilà ^^ Et évite de courir trop vite la prochaine fois sinon tu vas retomber\"\n{shushi} : \":< Je veux un bisou magique !\"\n{alty} : \"Oh. `Fait un bisou sur le genou de Shushi` Et voilà ^^\"\n{shushi} : \"Viiii :D\"",
         "{stella} : \"Oh Nacia' ! Tu te débrouilles avec ton réchauffement atmosphérique en ce moment ?\"\n{nacialisla} : \"On peut pas vraiment dire que tu m'aides Stella...\"",
-        "{kitsune} : \"Oh c'est toi. Ta vendetta est toujours dans tes projets ? Il me semble que la population d'humains a quand même sacrément diminué ces dernières années. Enfin... pas que les humains.\"\n{nacialisla} : \"On fait pas d'omelette sans casser des oeufs. Et pour répondre à ta question, j'ai tout de même prévu de leur faire quelques piqûres de rappel de temps en temps\"\n{kitsune} : \"J'aimerais juste que tu te souviennes qu'il y a pas que ces primates qui souffrent de tes crises.\"\n{nacialisla} : \"Et je te rappelle que le génocide de tes descendantes n'a rien à voir avec moi.\"\n{kitsune} : \"Oh je ne parlais pas que pour mon \"espèce\" tu sais.\""
+        "{kitsune} : \"Oh c'est toi. Ta vendetta est toujours dans tes projets ? Il me semble que la population d'humains a quand même sacrément diminué ces dernières années. Enfin... pas que les humains.\"\n{nacialisla} : \"On fait pas d'omelette sans casser des oeufs. Et pour répondre à ta question, j'ai tout de même prévu de leur faire quelques piqûres de rappel de temps en temps\"\n{kitsune} : \"J'aimerais juste que tu te souviennes qu'il y a pas que ces primates qui souffrent de tes crises.\"\n{nacialisla} : \"Et je te rappelle que le génocide de tes descendantes n'a rien à voir avec moi.\"\n{kitsune} : \"Oh je ne parlais pas que pour mon \"espèce\" tu sais.\"",
+        "{abigail}: \"Vous êtes déjà passé à la **/roulette** ? La guilde des aventuriers vous octroie des <:jeton:917793426949435402> Jetons de roulette de manière quotidienne, et j'ai entendu dire que vous pouvez aussi en trouver après des combats\nC'est un bon moyen d'obtenir de nouveaux équipements. Et si jamais vous obtenez un doublon, je devrais pouvoir vous en proposer un bon prix\""
     ],
     "shopEventEndYears":[
         "{lena} : \"Alors Shu' tu as des résolutions pour l'année à venir ^^ ?\"\n{shushi} : \"Ré...so...lu... quoi ?\"",
@@ -737,6 +738,88 @@
         "Lily":"Une succube qui se sent bien plus à l'aise dans le monde des rêves que dans la réalité",
         "Epiphyllum":"Une dryade qui s'est prise de passion pour étudier et enseigner à ses pairs. Aujourd'hui, elle est professeur de botanique à l'Académie de Magie",
         "Chûri":"Ayant fini par s'ennuyer en attendant que l'infime partie d'elle même étant restée bloquée parmi les vivants réussisse à la rejoindre, Chûri s'est liée d'amitié avec un phénix du nom de Hinoro au point que ce dernier consente à fusionner temporairement leurs âmes afin d'aider la fée à atteindre son but.\nDepuis, Chûri arpente le monde sous forme translucide ressemblant fortement à son ancien corps et Hinoro apparait régulièrement à ses côtés pour lui porter assistance."
+    },
+    "abiShopMsg":{
+        "buyAll":[
+            "\"C'est noté, veillez patienter quelques instant...\"",
+            "\"Tout est bon pour moi, vos articles sont en cours d'acheminement...\"",
+            "\"Vous voulez le reçu banquaire ?\"",
+            "\"Pam palam...\""
+        ],
+        "buyAllEnd":[
+            "\"C'est tout bon. Voici votre reçu :\"",
+            "\"Et voici. Vous avez peut-être besoin d'un peu d'aide pour porter tout cela ?\"",
+            "\"Et voila. Je vous souhaite une bonne journée ! Ou Au prochain arrivage, peut-être ?\"",
+            "\"Et voila. Oubliez pas notre réduction du dimanche !\""
+        ],
+        "buyAllAndSend":[
+            "\"C'est tout bon, vos achats vont être envoyé chez leurs destinataires sous peu\"",
+            "\"Vous voulez les faire emballer ?\"",
+            "\"Are you... taking my entire stock ?\"",
+            "\"Geez... ça fait pas mal quand même...\""
+        ],
+        "buyAllAndSendEnd":[
+            "\"Voilà. N'oubliez pas notre réduction du dimanche !\"",
+            "\"Et voilà. Tous vos achats ont été expédiés vers leurs nouveaux propriétaires\"",
+            "\"Eeeet tout est bon. Merci et bonne journée !\"",
+            "\"All done !\"",
+            "\"Merci. N'oubliez pas, article ni repris, ni échangés !\""
+        ]
+    },
+    "chipShopMsg":{
+        "oceaneSingle":{
+            "shopDsc":[
+                "{oceane} : \"Hey, bienvenue ! Vous voulez des puces ? Ma mère m'a dit que je pouvais vous en filer en échange de <:tradingCard:1218246608609742959> Cartes à jouer. Ou tout simplement en <:coins:862425847523704832> Pièces, si vous en avez pas assez\nJ'crois que vous en obtenez une dizaine lorsque vous ouvrez des boosters de puces. J'en sais rien, c'est pas mon truc, les puces\"",
+                "{oceane} : \"Hoi ! Quoi de beau aujourd'hui ? Vous voulez des puces ?\"",
+                "{oceane} : \"Hey ! Comment ça va ? Oubliez pas la promo du dimanche ! En plus on propose plein de trucs rare dans cette section, le dimanche !\""
+            ],
+            "buyCardButton":[
+                "On échange ?","Mmh !","C'est quand tu veux !"
+            ],
+            "buyCoinButton":[
+                "Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?"
+            ],
+            "buyed":[
+                "{oceane} : \"Parfait ! Mon frère vous souhaiterais de bien vous amuser avec ces puces, mais je vois pas en quoi c'est amusant\"",
+                "{oceane} : \"Et bah c'est tout bon !\"",
+                "{oceane} : \"Et voila pour vous\""
+            ]
+        },
+        "glanSingle":{
+            "shopDsc":[
+                "{glan} : \"Hey ! Bienvenue dans la section \"Puce\" du shop de ma mère ! Ici on propose des puces (no shit) contre des <:coins:862425847523704832> Pièces. Mais si tu es du genre radin, on te les échange aussi contre des <:tradingCard:1218246608609742959> Cartes à jouer ! Si j'arrive à me constinuer un deck du tonner, j'vais peut-être réussir à abatre ma cousine !\nAnyway, vous obtenez 10 <:tradingCard:1218246608609742959> Cartes à jouer lorsque vous ouvrez un booster de puces",
+                "{glan} : \"Hey, mes aventuriers préférés ! Vous avez des <:tradingCard:1218246608609742959> Cartes à jouer ?\"",
+                "{glan} : \"Hi there ! Vous avez besoins de puces ?"
+                ],
+            "buyCardButton":[
+                "Deal ?","On échange ?","Allez quoi !"
+                ],
+            "buyCoinButton":[
+                "Deal ?","De la monnaie ?"
+                ],
+            "buyed":[
+                "{glan} : \"That's the spirit !\"",
+                "{glan} : \"Well done !\"",
+                "{glan} : \"There you go !\""
+            ]
+        },
+        "oceaneGlanDuo":{
+            "shopDsc":[
+                "{oceane} : \"Bien le bonjour ! Besoin de puces ? On peut vous en fournir contre quelques <:tradingCard:1218246608609742959> Cartes à jouer\"\n{glan} : \"Ou des <:coins:862425847523704832> Pièces\"\n{oceane} : \"Certes\"",
+                "{glan} : \"Mmh... Ok, je vais jouer celle là ici !\"\n{oceane} : \"Quel fourbe. Mais je ne vais pas m'avouer vaincue pour autant ! Oh bonjour vous\"\n{glan} : \"Welcome !\"",
+                "{glan} : \"Hé regarde celle-là !\"\n{oceane} : \"Oh belle prise. Elle est plutôt rare celle-ci\"\n{glan} : \"Oh bienvenue Aventurier\"\n{oceane} : \"Bien le bonjour\""
+                ],
+            "buyCardButton":[
+                "Deal ?","On échange ?","Allez quoi !","Mmh !","C'est quand tu veux !"
+                ],
+            "buyCoinButton":[
+                "Deal ?","De la monnaie ?","Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?"
+            ],
+            "buyed":[
+                "{glan} : \"Perfect !\"\n{oceane} : \"... Tu peux le dire en français aussi...",
+                "{oceane} : \"C'est tout bon\"\n{glan} : \"Bon de chez bon !\"",
+                "{glan}{oceane} : \"Merci pour votre achat !\""
+            ]
+        }
     }
 }
-
