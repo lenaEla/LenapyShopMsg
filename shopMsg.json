@@ -1002,5 +1002,8 @@
 		"- Les Ruines du Centre Commercial :\n> Un ancien centre commercial se trouvant dans les ruines qui entourent la Ville. La probabilité d'y trouver des pièces d'équipement y est plus prononcée\n - Les Ruines de l'Ecole :\n> Un ancien complexe éducatif qui se trouve en périphérie de la Ville. Il y est plus facile de trouver des Cartes à Jouer ou des puces\n - Les Vieilles Mines :\n> De vieilles galeries désaffectées où la quantité de pièces obtenues est plus importante",
 		"- Lorsque quelqu'un trouve une compétence ou une pièce d'équipement, celle-ci est tirée aléatoire dans un lot comportant les objets non possédés par le personnage ainsi que **10%** d'objets doublons. Si la trouvaille est un doublon, le personnage obtient de l'expérience à la place\n- Lancer un combat mettra automatiquement fin à l'expédition\n- Il n'est pas possible de lancer une exploration si l'équipe est en combat ou dans une file d'attente inférieure à 1h",
 		"- Par défaut, la probabilité de trouver des puces est de {chipProb}%\n- Par défaut, la probabilité de trouver des pièces d'équipement est de {stuffProb}%\n- Par défaut, la probabilité de trouver des compétences est de {skillProb}%\n- Par défaut, la probabilité de trouver des Cartes à Jouer est de {tcProb}%\n- Par défaut, la probabilité de trouver de l'expérience est de {resteProb}%\n- Par défaut, la probabilité de trouver des pièces est de {resteProb}%"
-	]
+	],
+	"miscText":{
+		"lena.fightcooldown": "Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème."
+	}
 }
