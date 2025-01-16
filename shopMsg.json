@@ -1004,6 +1004,6 @@
 		"- Par défaut, la probabilité de trouver des puces est de {chipProb}%\n- Par défaut, la probabilité de trouver des pièces d'équipement est de {stuffProb}%\n- Par défaut, la probabilité de trouver des compétences est de {skillProb}%\n- Par défaut, la probabilité de trouver des Cartes à Jouer est de {tcProb}%\n- Par défaut, la probabilité de trouver de l'expérience est de {resteProb}%\n- Par défaut, la probabilité de trouver des pièces est de {resteProb}%"
 	],
 	"miscText":{
-		"lena.fightcooldown": "Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème."
+		"lena.fightcooldown": {"pissed":"Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème."}
 	}
 }
