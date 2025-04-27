@@ -957,6 +957,7 @@
 		"Certaines aspirations, compétences ou puces permettent à une entité d'infliger l'effet <:deepWound:1188192336652546079> Blessure Profonde à un ennemi en fonction des dégâts directs infligés",
 		"On ne sait pas grand chose de ces monstres spirituels que sont les némésis. Simplement qu'ils semblent apparaître lorsqu'un être cumulant une grande quantité de magie broie du noir durant un long moment\nIls ne sont pas d'une grande menace, si on s'en occupe suffisament tôt. Mais il ne faut tout de même pas oublier qu'ils possèdent une partie de la puissance de ceux qui les ont créés\nIl est théorisé que s'ils sont laissés tranquilles, ils pourraient même surpasser la personne d'origine"
 	],
+
 	"pnjDescriptions":{
 		"Lena":"Une jeune femme qui vit dans une maison reculée avec sa fille et ses filleules. D'un tempérament plutôt froid et réservé, elle ne semble pas porter grand interêt à grand chose",
 		"Gwendoline":"Une jeune femme membre des forces d'intervention d'une société de l'ombre. Étant plutôt tournée vers la Justice avec un grand J, elle se spécialise plus vers le soutien, sans oublier de faire quelques dégâts au passage",
@@ -989,6 +990,7 @@
 		"Epiphyllum":"Une dryade qui s'est prise de passion pour étudier et enseigner à ses pairs. Aujourd'hui, elle est professeur de botanique à l'Académie de Magie",
 		"Chûri":"Ayant fini par s'ennuyer en attendant que l'infime partie d'elle même étant restée bloquée parmi les vivants réussisse à la rejoindre, Chûri s'est liée d'amitié avec un phénix du nom de Hinoro au point que ce dernier consente à fusionner temporairement leurs âmes afin d'aider la fée à atteindre son but.\nDepuis, Chûri arpente le monde sous forme translucide ressemblant fortement à son ancien corps et Hinoro apparait régulièrement à ses côtés pour lui porter assistance."
 	},
+
 	"abiShopMsg":{
 		"buyAll":[
 			"\"C'est noté, veuillez patienter quelques instants...\"",
@@ -1016,6 +1018,7 @@
 			"\"Merci. N'oubliez pas, articles ni repris, ni échangés !\""
 		]
 	},
+
 	"chipShopMsg":{
 		"oceaneSingle":{
 			"shopDsc":[
@@ -1111,6 +1114,7 @@
 		"35":".adventurerGuild",
 		"36":".dungeon"
 	},
+
 	"explorationHelp":[
 		"- Les Explorations sont un moyen supplémentaire pour obtenir de l'expérience, de l'argent ou des équipements sans avoir à faire de combat.\n- Une équipe part automatiquement en expédition si elle n'a pas fait de combat depuis plus de **3h**, vers une destination aléatoire\n- Chaque destination apporte des bonus de probabilité à l'exploration\n- Chaque quart d'heure, chaque personnage en exploration a la possibilité de faire une trouvaille. S'il y parvient, sa probabilité d'en faire une autre diminue de **5%** jusqu'à la fin de l'exploration en cours",
 		"- Les différents lieux d'exploration sont :\n - La Forêt :\n> La sombre forêt qui entoure la Ville. Les monstres y étant monnaie courante, l'expérience obtenue en exploration y est augmentée\n - L'Académie de Magie :\n> Étudier la magie ou explorer le donjon académique augmente la probabilité de trouver des compétences utilisant le Charisme, l'Intelligence ou la Magie\n - L'Académie d'Escrime :\n> Si vous êtes attirés par l'art de l'épée ou des poings, cette académie augmente la probabilité de trouver des compétences utilisant la Force, l'Agilité, l'Endurance ou la Précision",
@@ -1122,6 +1126,27 @@
 		"lena": {
 			"fightCooldown" :{
 				"pissed":"Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème."
+			},
+			"roll" :{
+				"neutral":
+					[
+						"Selon toute vraisemblance ce sera un {}",
+						"Puisse la chance être avec toi... {} !",
+						"Alors Alice tu as obtenu combien ? {} ?",
+						"Sur 100, les chances que la relation Akrisk tienne debout ? Hum... {}*",
+						"Le nombre de lances que tu va avoir à esquiver est... {}"
+					]
+			},
+			"choose": {
+				"neutral":
+					[
+						"Même si de toutes façons tu va prendre que ce qui t'arrange",
+						"D'après un vote très serré",
+						"D'après la mojorité absolue",
+						"J'invoque l'article 49 alénéa 3 de la constitution, j'engage la responsabilité de mon gouvenement pour le sujet suivant",
+						"Si j'en crois les feuilles dans ma tasse de thé",
+						"Am, stram, gram, Pic et pic et colégram, Bour et bour et ratatam, Am, stram, gram."
+					]
 			}
 		}
 	}
