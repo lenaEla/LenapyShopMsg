@@ -1125,7 +1125,8 @@
 	"miscText":{
 		"lena": {
 			"fightCooldown" :{
-				"pissed":"Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème."
+				"pissed":"Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème.",
+				"neutral" : "Pour éviter des situations où plusieurs commandes sont envoyés simultanément, cette commande est soumis à un cooldown de 10 secondes (**{0}** seconde{s} restante{s})"
 			},
 			"roll" :{
 				"neutral":
