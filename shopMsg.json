@@ -1024,54 +1024,62 @@
 			"shopDsc":[
 				"{oceane} : \"Hey, bienvenue ! Vous voulez des puces ? Ma mère m'a dit que je pouvais vous en filer en échange de <:tradingCard:1218274555081261116> Cartes à jouer. Ou tout simplement en <:coins:862425847523704832> Pièces, si vous en avez pas assez\nJ'crois que vous en obtenez une dizaine lorsque vous ouvrez des boosters de puces. J'en sais rien, c'est pas mon truc, les puces\"",
 				"{oceane} : \"Hoi ! Quoi de beau aujourd'hui ? Vous voulez des puces ?\"",
-				"{oceane} : \"Hey ! Comment ça va ? Oubliez pas la promo du dimanche ! En plus on propose plein de trucs rares dans cette section, le dimanche !\""
+				"{oceane} : \"Hey ! Comment ça va ? Oubliez pas la promo du dimanche ! En plus on propose plein de trucs rares dans cette section, le dimanche !\"",
+				"{oceane} : \"Vous voulez en savoir plus sur les puces ? Oh heu... Il s'agit d'un moyen alternatifs aux runes utilisées par l'Echanted. Contrairement aux dites runes, les puces s'équipent sur une espèce de matrice fournie par la guilde des aventuriers, au lieu d'être incrustée à votre arme. Cela rend la gestion plus simple, ou un truc comme ça\""
 			],
 			"buyCardButton":[
-				"On échange ?","Mmh !","C'est quand tu veux !"
+				"On échange ?","Mmh !","C'est quand tu veux !", "On te les échanges contre des TC, si tu veux"
 			],
 			"buyCoinButton":[
-				"Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?"
+				"Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?", "Tu peux utiliser des pièces si tu veux"
 			],
 			"buyed":[
 				"{oceane} : \"Parfait ! Mon frère vous souhaiterait de bien vous amuser avec ces puces, mais je vois pas en quoi c'est amusant\"",
 				"{oceane} : \"Et bah c'est tout bon !\"",
-				"{oceane} : \"Et voila pour vous\""
+				"{oceane} : \"Et voila pour vous\"",
+				"{oceane} : \"Merci bien ! Je dois cependant vous indiquer de nous ne fournissons pas d'SAV"
 			]
 		},
 		"glanSingle":{
 			"shopDsc":[
 				"{glan} : \"Hey ! Bienvenue dans la section \"Puce\" du shop de ma mère ! Ici on propose des puces (no shit) contre des <:coins:862425847523704832> Pièces. Mais si tu es du genre radin, on te les échange aussi contre des <:tradingCard:1218274555081261116> Cartes à jouer ! Si j'arrive à me constituer un deck du tonnerre, j'vais peut-être réussir à abattre ma cousine !\nAnyway, vous obtenez 10 <:tradingCard:1218274555081261116> Cartes à jouer lorsque vous ouvrez un booster de puces",
 				"{glan} : \"Hey, mes aventuriers préférés ! Vous avez des <:tradingCard:1218274555081261116> Cartes à jouer ?\"",
-				"{glan} : \"Hi there ! Vous avez besoin de puces ?"
+				"{glan} : \"Hi there ! Vous avez besoin de puces ? Vous êtes au bon endroit\"",
+				"{glan} : \"Maman est occupée pour le moment, mais je peux vous aider ?",
+				"{glan} : \"Huh ? Comment ça se fait que ce magasin peut vendre des puces ? Well, la guilde des aventuriers a certes le monopole, mais nous avons un partenariat avec eux. Maman dit qu'elle a l'autorisation d'un haut placé, un truc du genre. Après compte tenu du fait qu'elle vend pas mal de trucs pour les aventuriers, c'est pas déconnant\""
 				],
 			"buyCardButton":[
-				"Deal ?","On échange ?","Allez quoi !"
+				"Deal ?","On échange ?","Allez quoi !", "On vous avez des TC ?"
 				],
 			"buyCoinButton":[
-				"Deal ?","De la monnaie ?"
+				"Deal ?","De la monnaie ?", "À la classique ?"
 				],
 			"buyed":[
 				"{glan} : \"That's the spirit !\"",
 				"{glan} : \"Well done !\"",
-				"{glan} : \"There you go !\""
+				"{glan} : \"There you go !\"",
+				"{glan} : \"Thanks ! Hésitez pas à repasser à l'occas'"
 			]
 		},
 		"oceaneGlanDuo":{
 			"shopDsc":[
 				"{oceane} : \"Bien le bonjour ! Besoin de puces ? On peut vous en fournir contre quelques <:tradingCard:1218274555081261116> Cartes à jouer\"\n{glan} : \"Ou des <:coins:862425847523704832> Pièces\"\n{oceane} : \"Certes\"",
 				"{glan} : \"Mmh... Ok, je vais jouer celle-là ici !\"\n{oceane} : \"Quel fourbe. Mais je ne vais pas m'avouer vaincue pour autant ! Oh bonjour vous\"\n{glan} : \"Welcome !\"",
-				"{glan} : \"Hé regarde celle-là !\"\n{oceane} : \"Oh belle prise. Elle est plutôt rare celle-ci\"\n{glan} : \"Oh bienvenue Aventurier\"\n{oceane} : \"Bien le bonjour\""
+				"{glan} : \"Hé regarde celle-là !\"\n{oceane} : \"Oh belle prise. Elle est plutôt rare celle-ci\"\n{glan} : \"Oh bienvenue Aventurier\"\n{oceane} : \"Bien le bonjour\"",
+				"{oceane} : \"Et je sacrifie le monstre que je viens d'invoquer pour invoquer le dragon blanc aux yeux bleus !\"\n{glan} : \"L'inverse m'aurait étonné tiens...\""
 				],
 			"buyCardButton":[
-				"Deal ?","On échange ?","Allez quoi !","Mmh !","C'est quand tu veux !"
+				"Deal ?","On échange ?","Allez quoi !","Mmh !","C'est quand tu veux !", "On te les échanges contre des TC, si tu veux"
 				],
 			"buyCoinButton":[
-				"Deal ?","De la monnaie ?","Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?"
+				"Deal ?","De la monnaie ?","Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?", "Tu peux utiliser des pièces si tu veux"
 			],
 			"buyed":[
 				"{glan} : \"Perfect !\"\n{oceane} : \"... Tu peux le dire en français aussi...",
 				"{oceane} : \"C'est tout bon\"\n{glan} : \"Bon de chez bon !\"",
-				"{glan}{oceane} : \"Merci pour votre achat !\""
+				"{glan}{oceane} : \"Merci pour votre achat !\"",
+				"{oceane} : \"Parfait, merci bien !\"",
+				"{glan} : \"Everything iiiiiiis ok !\""
 			]
 		}
 	},
@@ -1125,18 +1133,28 @@
 	"miscText":{
 		"lena": {
 			"fightCooldown" :{
-				"pissed":"Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème.",
-				"neutral" : "Pour éviter des situations où plusieurs commandes sont envoyés simultanément, cette commande est soumis à un cooldown de 10 secondes (**{0}** seconde{s} restante{s})"
+				"pissed": "Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème.",
+				"neutral" : "Pour éviter des situations où plusieurs commandes sont envoyés simultanément, cette commande est soumis à un cooldown de 10 secondes (**{0}** seconde{s} restante{s})",
+				"empty" : "Encore {0} seconde{s} de cooldown"
 			},
 			"roll" :{
-				"neutral":
-					[
-						"Selon toute vraisemblance ce sera un {}",
-						"Puisse la chance être avec toi... {} !",
-						"Alors Alice tu as obtenu combien ? {} ?",
-						"Sur 100, les chances que la relation Akrisk tienne debout ? Hum... {}*",
-						"Le nombre de lances que tu va avoir à esquiver est... {}"
-					]
+				"neutral": [
+					"Selon toute vraisemblance ce sera un {}",
+					"Puisse la chance être avec toi... {} !",
+					"Alors Alice tu as obtenu combien ? {} ?",
+					"Sur 100, les chances que la relation Akrisk tienne debout ? Hum... {}*",
+					"Le nombre de lances que tu va avoir à esquiver est... {}"
+				],
+				"pissed": [
+					"Urf. {}",
+					"{}",
+					"Huh, {}"
+				],
+				"empty": [
+					"{}",
+					"Les dés indiquent {}",
+					"D'après random.randint, {}"
+				]
 			},
 			"choose": {
 				"neutral":
@@ -1147,7 +1165,19 @@
 						"J'invoque l'article 49 alénéa 3 de la constitution, j'engage la responsabilité de mon gouvenement pour le sujet suivant",
 						"Si j'en crois les feuilles dans ma tasse de thé",
 						"Am, stram, gram, Pic et pic et colégram, Bour et bour et ratatam, Am, stram, gram."
-					]
+					],
+				"pissed":
+					[
+						"À quoi bon, tu va prendre que ce qui t'arrange après tout",
+						"Vraiment ?",
+						"Ok soit",
+						"C'est une perte de temps, mais"
+					],
+				"empty" : [
+					"À tous hasards",
+					"Si tu y tiens...",
+					"..."
+				]
 			}
 		}
 	}
