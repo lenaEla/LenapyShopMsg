@@ -1,7 +1,7 @@
 {
 	"shopPermaRdmMsg":[
 		"{abigail} : \"Vous êtes déjà passé à la **/roulette** ? La guilde des aventuriers vous octroie des <:jeton:917793426949435402> Jetons de roulette de manière quotidienne, et j'ai entendu dire que vous pouvez aussi en trouver après des combats\nC'est un bon moyen d'obtenir de nouveaux équipements. Et si jamais vous obtenez un doublon, je devrais pouvoir vous en proposer un bon prix\"",
-		"{abigail} : \"Bienvenue ! Ici vous pouvez trouver toutes sortes d'objets pour vos aventures ! On a des armes, des équipements, des compétences et mêmes certains objets spéciaux. On a même des puces si vous le souhaitez, mais il faudra aller à la section arrière. Ce sont mes enfants qui la tienne, mais j'ai envie de dire qu'ils ont appris de la meilleure héhé\""
+		"{abigail} : \"Bienvenue ! Ici vous pouvez trouver toutes sortes d'objets pour vos aventures ! On a des armes, des équipements, des compétences et mêmes certains objets spéciaux. On a même des puces si vous le souhaitez, mais il faudra aller à la section arrière. Ce sont mes enfants qui la tiennent, mais j'ai envie de dire qu'ils ont appris de la meilleure héhé\""
 	],
 
 	"shopEventEndYears":[
@@ -63,20 +63,20 @@
 			"{feli} : \"Heeeey devinez quel jour on est ?\"",
 			"{gweny} : \"Huh, un an de plus, heh ?\"\n{feli} : \"Bah heureusement que ce n'est *que* un an de plus !\"",
 			"{alice} : \"Heu... Nan j'ai pas de blague sur les anniversaires dans mon répertoire, désolée\"\n{feli} : \"C'est l'intention qui compte !\"",
-			"{klikli} : \"Eeeet c'est parti pour la semaine d'anniversaire\"\n{feli} : \"Hehe, ainée et première dans l'année\"",
-			"{lena} : \"Je t'ai fais une liste des dimensions où il y a des gens qui souhaiterais te souhaiter HB. Oh et HB au passage\"\n{feli} : \"Merchiiii\""
+			"{klikli} : \"Eeeet c'est parti pour la semaine d'anniversaire\"\n{feli} : \"Hehe, aînée et première dans l'année\"",
+			"{lena} : \"Je t'ai fait une liste des dimensions où il y a des gens qui souhaiteraient te souhaiter HB. Oh et HB au passage\"\n{feli} : \"Merchiiii\""
 		]},
 		{"date" : [12, 6],
 		"tabl" : [
-			"{alice} : \"Heeeey `Alice enlaça Sixtine par derrière, ce qui prit cette dernière au dépourvu` Joyeux anniversaire, Sixt' ! Félicitation tu es calinée !\"\n{sixtine} : \"Hurf...\"\n{alice} : \"S'il te plait ne résiste pas\"",
+			"{alice} : \"Heeeey `Alice enlaça Sixtine par derrière, ce qui prit cette dernière au dépourvu` Joyeux anniversaire, Sixt' ! Félicitations tu es calinée !\"\n{sixtine} : \"Hurf...\"\n{alice} : \"S'il te plait ne résiste pas\"",
 			"{lily} : \"Joyeux anniversaire Sixtine\"\n{sixtine} : \"Oh heu... Merci\"",
-			"{shushi} : \"Sixtine Sixtine ! Joyeux anniversaire ! `La jeunne fille exhiba fierement le dessin qu'elle avait fait`\"\n{sixtine} : \"Oh merci\"",
-			"{feli} : \"Sixtine attrape !\"\n{sixtine} : \"Huh ? Heh !? `Elle attrapa le petit paquet que lui a jeté sa soeur`\"\n{feli} : \"Joyeux anniv' !\"\n{sixtine} : \"Merci...\""
+			"{shushi} : \"Sixtine Sixtine ! Joyeux anniversaire ! `La jeune fille exhiba fièrement le dessin qu'elle avait fait`\"\n{sixtine} : \"Oh merci\"",
+			"{feli} : \"Sixtine attrape !\"\n{sixtine} : \"Huh ? Heh !? `Elle attrapa le petit paquet que lui avait jeté sa soeur`\"\n{feli} : \"Joyeux anniv' !\"\n{sixtine} : \"Merci...\""
 		]},
 		{"date" : [14, 6],
 		"tabl" : [
 			"{alice} : \"Raaah je stresse pour mon stream anniversaire !\"\n{sixtine} : \"Tu en fais un tous les ans pourtant...\"\n{alice} : \"Ça ne veut pas dire que je stresse pas !\"",
-			"{sclem} : \"... Joyeux anniversaire Alice\"\n{alice} : \"Merchiiiii\"\n{isa} : \"`La chauve-souris sorti sa tête de la poche de Clémence en bayant et lâcha un petit couinement`\"\n{alice} : \"Héhé, merchi aussi\"",
+			"{sclem} : \"... Joyeux anniversaire Alice\"\n{alice} : \"Merchiiiii\"\n{isa} : \"`La chauve-souris sortit sa tête de la poche de Clémence en baillant et lâcha un petit couinement`\"\n{alice} : \"Héhé, merchi aussi\"",
 			"{feli} : \"Huh, j'ai l'impression d'oublier quelque chose\"\n{alice} : \"Roh\"\n{feli} : \"Awi, c'est mon après-anniversaire +3\"\n{alice} : \"Mais !\"\n{feli} : \"Héhé, si tu voyais ta tête ! Joyeux anniversaire Alice\"\n{alice} : \"Hmf !\""
 		]
 	}
@@ -1039,10 +1039,10 @@
 				"{oceane} : \"Hey, bienvenue ! Vous voulez des puces ? Ma mère m'a dit que je pouvais vous en filer en échange de <:tradingCard:1218274555081261116> Cartes à jouer. Ou tout simplement en <:coins:862425847523704832> Pièces, si vous en avez pas assez\nJ'crois que vous en obtenez une dizaine lorsque vous ouvrez des boosters de puces. J'en sais rien, c'est pas mon truc, les puces\"",
 				"{oceane} : \"Hoi ! Quoi de beau aujourd'hui ? Vous voulez des puces ?\"",
 				"{oceane} : \"Hey ! Comment ça va ? Oubliez pas la promo du dimanche ! En plus on propose plein de trucs rares dans cette section, le dimanche !\"",
-				"{oceane} : \"Vous voulez en savoir plus sur les puces ? Oh heu... Il s'agit d'un moyen alternatifs aux runes utilisées par l'Echanted. Contrairement aux dites runes, les puces s'équipent sur une espèce de matrice fournie par la guilde des aventuriers, au lieu d'être incrustée à votre arme. Cela rend la gestion plus simple, ou un truc comme ça\""
+				"{oceane} : \"Vous voulez en savoir plus sur les puces ? Oh heu... Il s'agit d'un moyen alternatif aux runes utilisées par l'Echanted. Contrairement aux dites runes, les puces s'équipent sur une espèce de matrice fournie par la guilde des aventuriers, au lieu d'être incrustées à votre arme. Cela rend la gestion plus simple, ou un truc comme ça\""
 			],
 			"buyCardButton":[
-				"On échange ?","Mmh !","C'est quand tu veux !", "On te les échanges contre des TC, si tu veux"
+				"On échange ?","Mmh !","C'est quand tu veux !", "On te les échange contre des TC, si tu veux"
 			],
 			"buyCoinButton":[
 				"Tu veux passer à la caisse ?","Tu prends ?","Contre des pièces ?", "Tu peux utiliser des pièces si tu veux"
@@ -1050,8 +1050,8 @@
 			"buyed":[
 				"{oceane} : \"Parfait ! Mon frère vous souhaiterait de bien vous amuser avec ces puces, mais je vois pas en quoi c'est amusant\"",
 				"{oceane} : \"Et bah c'est tout bon !\"",
-				"{oceane} : \"Et voila pour vous\"",
-				"{oceane} : \"Merci bien ! Je dois cependant vous indiquer de nous ne fournissons pas d'SAV"
+				"{oceane} : \"Et voilà pour vous\"",
+				"{oceane} : \"Merci bien ! Je dois cependant vous indiquer que nous ne fournissons pas d'SAV"
 			]
 		},
 		"glanSingle":{
@@ -1150,7 +1150,7 @@
 		"lena": {
 			"fightCooldown" :{
 				"pissed": "Tu pourrais pas attendre genre, {0} fucking seconde{s} ?\nSpammer la commande la fera pas réagir plus vite.\nSi le combat ne s'est toujours pas lancé après une dizaine de secondes, là il y a un problème.",
-				"neutral" : "Pour éviter des situations où plusieurs commandes sont envoyés simultanément, cette commande est soumis à un cooldown de 10 secondes (**{0}** seconde{s} restante{s})",
+				"neutral" : "Pour éviter des situations où plusieurs commandes sont envoyées simultanément, cette commande est soumise à un cooldown de 10 secondes (**{0}** seconde{s} restante{s})",
 				"empty" : "Encore {0} seconde{s} de cooldown"
 			},
 			"roll" :{
@@ -1159,7 +1159,7 @@
 					"Puisse la chance être avec toi... {} !",
 					"Alors Alice tu as obtenu combien ? {} ?",
 					"Sur 100, les chances que la relation Akrisk tienne debout ? Hum... {}*",
-					"Le nombre de lances que tu va avoir à esquiver est... {}"
+					"Le nombre de lances que tu vas avoir à esquiver est... {}"
 				],
 				"pissed": [
 					"Urf. {}",
@@ -1175,16 +1175,16 @@
 			"choose": {
 				"neutral":
 					[
-						"Même si de toutes façons tu va prendre que ce qui t'arrange",
+						"Même si de toute façon tu vas prendre que ce qui t'arrange",
 						"D'après un vote très serré",
-						"D'après la mojorité absolue",
-						"J'invoque l'article 49 alénéa 3 de la constitution, j'engage la responsabilité de mon gouvenement pour le sujet suivant",
+						"D'après la majorité absolue",
+						"J'invoque l'article 49 alinéa 3 de la constitution, j'engage la responsabilité de mon gouvernement pour le sujet suivant",
 						"Si j'en crois les feuilles dans ma tasse de thé",
 						"Am, stram, gram, Pic et pic et colégram, Bour et bour et ratatam, Am, stram, gram."
 					],
 				"pissed":
 					[
-						"À quoi bon, tu va prendre que ce qui t'arrange après tout",
+						"À quoi bon, tu vas prendre que ce qui t'arrange après tout",
 						"Vraiment ?",
 						"Ok soit",
 						"C'est une perte de temps, mais"
